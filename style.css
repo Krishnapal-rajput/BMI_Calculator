@@ -127,7 +127,7 @@
     }
   
     form {
-      width: 100%; /* Take up full width on smaller screens */
+      width: 80%; /* Take up full width on smaller screens */
       padding: 10px; /* Even less padding */
     }
   
