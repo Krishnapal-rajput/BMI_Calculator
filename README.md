@@ -37,7 +37,7 @@ To run the BMI Calculator locally, follow these steps:
 
 3. Open the <code>index.html<code> file in your browser.
 
-    You can simply double-click the <code>index.html<code> file to open it in your default browser, or use a local server if you prefer.
+    You can simply double-click the <code>index.html</code> file to open it in your default browser, or use a local server if you prefer.
 
 ## How to Use
 
