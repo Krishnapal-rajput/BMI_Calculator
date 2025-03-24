@@ -2,17 +2,17 @@
 * {
     margin: 0;
     padding: 0;
-  }
+}
   
-  /* Set a bold, readable font for the entire page */
-  html {
+/* Set a bold, readable font for the entire page */
+html {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: bold;
-  }
+}
   
-  /* Style the body to make the page centered, with a flexible layout */
-  body {
+/* Style the body to make the page centered, with a flexible layout */
+body {
     height: 100vh; /* Full height of the viewport */
     background-color: #123; /* Dark background color */
     width: 100%; /* Full width */
@@ -21,18 +21,18 @@
     align-items: center; /* Center vertically */
     flex-direction: column; /* Stack elements vertically */
     padding: 20px; /* Add some padding around the content */
-  }
+}
   
-  /* Style the main heading (h1) */
-  h1 {
+/* Style the main heading (h1) */
+h1 {
     text-align: center; /* Center the text */
     color: #aff; /* Light blue color for the heading */
     margin-top: 20px; /* Space above the heading */
     font-size: 24px; /* Set font size */
-  }
+}
   
-  /* Style the form container */
-  form {
+/* Style the form container */
+form {
     width: 100%; /* Make form take full width */
     max-width: 400px; /* Limit form width */
     padding: 20px; /* Add padding inside the form */
@@ -41,16 +41,16 @@
     margin-top: 30px; /* Add space above the form */
     color: #aff; /* Light blue text color */
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Subtle shadow for depth */
-  }
+}
   
-  /* Style the labels inside the form */
-  label {
+/* Style the labels inside the form */
+label {
     padding-top: 10px; /* Space above the label */
     font-size: 18px; /* Set font size for labels */
-  }
+}
   
-  /* Style the input fields */
-  input {
+/* Style the input fields */
+input {
     width: 95%; /* Make inputs take most of the form width */
     height: 35px; /* Set height for inputs */
     background-color: #123; /* Dark background color */
@@ -61,10 +61,10 @@
     font-size: 16px; /* Set font size */
     margin-top: 10px; /* Space above the input field */
     font-weight: bold; /* Bold text for input */
-  }
+}
   
-  /* Style the button */
-  button {
+/* Style the button */
+button {
     border: 1px solid greenyellow; /* Border with bright color */
     background-color: #123; /* Dark background color */
     color: #aff; /* Light blue text color */
@@ -73,76 +73,106 @@
     border-radius: 25px; /* Round corners for the button */
     margin-block: 10px; /* Add space above and below the button */
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif; /* Set font family */
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif; /* Set font family */
     font-size: 16px; /* Set font size */
     font-weight: bold; /* Bold text on the button */
-  }
+}
   
-  /* Button hover effect */
-  button:hover {
+/* Button hover effect */
+button:hover {
     cursor: pointer; /* Change cursor to pointer on hover */
     font-weight: normal; /* Reset font weight on hover */
-  }
+}
   
-  /* Style the div where results are displayed */
-  div {
+/* Style the div where results are displayed */
+div {
     display: none; /* Initially hidden */
     text-align: center; /* Center the text */
     margin-top: 20px; /* Add space above the result */
     color: #aff; /* Light blue text color */
     font-weight: bold; /* Bold text */
     font-size: 18px; /* Set font size */
-  }
+}
   
-  /* Mobile responsiveness for medium-sized devices (max-width: 768px) */
-  @media (max-width: 768px) {
+/* Mobile responsiveness for medium-sized devices (max-width: 768px) */
+@media (max-width: 768px) {
     h1 {
-      font-size: 22px; /* Slightly smaller heading on medium screens */
+        font-size: 22px; /* Slightly smaller heading on medium screens */
     }
   
     form {
-      width: 90%; /* Make the form take up 90% of the screen width */
-      padding: 15px; /* Reduce padding on smaller screens */
+        width: 90%; /* Make the form take up 90% of the screen width */
+        padding: 15px; /* Reduce padding on smaller screens */
     }
   
     label {
-      font-size: 16px; /* Smaller label font size */
+        font-size: 16px; /* Smaller label font size */
     }
   
     input,
     button {
-      font-size: 14px; /* Smaller font size for inputs and button */
-      height: 35px; /* Adjust the input height for mobile */
+        font-size: 14px; /* Smaller font size for inputs and button */
+        height: 35px; /* Adjust the input height for mobile */
     }
   
     button {
-      width: 100%; /* Make button stretch full width */
+        width: 100%; /* Make button stretch full width */
     }
-  }
+}
   
-  /* Mobile responsiveness for smaller devices (max-width: 480px) */
-  @media (max-width: 480px) {
+/* Mobile responsiveness for smaller devices (max-width: 480px) */
+@media (max-width: 480px) {
     h1 {
-      font-size: 20px; /* Even smaller heading font size */
+        font-size: 20px; /* Even smaller heading font size */
     }
   
     form {
-      width: 85%; /* Take up full width on smaller screens */
-      padding: 10px; /* Even less padding */
+        width: 85%; /* Take up full width on smaller screens */
+        padding: 10px; /* Even less padding */
     }
   
     label {
-      font-size: 14px; /* Smaller label font size */
+        font-size: 14px; /* Smaller label font size */
     }
   
     input,
     button {
-      font-size: 14px; /* Adjust font size for small screens */
-      height: 35px; /* Keep input height consistent */
+        font-size: 14px; /* Adjust font size for small screens */
+        height: 35px; /* Keep input height consistent */
     }
   
     div {
-      font-size: 16px; /* Smaller font size for result text */
+        font-size: 16px; /* Smaller font size for result text */
     }
-  }
-  
+}
+
+/* Mobile responsiveness for extra small devices (max-width: 375px) */
+@media (max-width: 375px) {
+    h1 {
+        font-size: 18px; /* Slightly smaller heading */
+    }
+
+    form {
+        width: 95%; /* Maximize width on very small screens */
+        padding: 8px; /* Reduce padding further */
+    }
+
+    label {
+        font-size: 13px; /* Adjust font size for better readability */
+    }
+
+    input {
+        font-size: 13px; /* Reduce font size slightly */
+        height: 32px; /* Adjust input height */
+        padding-left: 15px; /* Adjust padding for smaller screens */
+    }
+
+    button {
+        font-size: 14px; /* Keep button text readable */
+        height: 38px; /* Adjust button height */
+    }
+
+    div {
+        font-size: 14px; /* Reduce result text size */
+    }
+}
